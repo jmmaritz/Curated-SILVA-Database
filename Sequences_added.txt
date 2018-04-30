@@ -1,0 +1,22 @@
+
+GenBank accession numbers and taxonomic string of the sequences added to the curated database
+
+GenBank			Taxonomy
+
+AB282658		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_histolytica
+AB282659		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_histolytica
+AB282660		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_histolytica
+AB282661		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_dispar
+AB445018		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_muris
+AF149914		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_coli
+AF149915		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_coli
+AY769863		Eukaryota; __Amoebozoa; __Conosa; __Archamoebae; __Entamoebida; __Entamoeba; __Entamoeba_invadens
+U17505			Eukaryota; __Excavata; __Metamonada; __Parabasalia; __Trichomonadea; __Ditrichomonas; __Ditrichomonas_honigbergii
+AF072905		Eukaryota; __Excavata; __Metamonada; __Parabasalia; __Trichomonadea; __Monotrichomonas; __Monotrichomonas_sp._ATCC50693
+AF072906		Eukaryota; __Excavata; __Metamonada; __Parabasalia; __Trichomonadea; __Monotrichomonas; __Monotrichomonas_carabina
+JQ692127		Eukaryota; __Excavata; __Metamonada; __Parabasalia; __Trichomonadea; __Trichomonas; __Trichomonas_sp._3_AP-2012
+JX512960		Eukaryota; __Excavata; __Metamonada; __Parabasalia; __Trichomonadea; __Trichomonas; __Trichomonas_sp._5_AP-2012
+
+Citation:
+An 18S rRNA workflow for characterizing protists in sewage, with a focus on zoonotic trichomonads; Microbial Ecology; Maritz, JM, Rogers, KH, Rock, TM, Liu N, Joseph, S. Land, KM, Carlton, JM
+
