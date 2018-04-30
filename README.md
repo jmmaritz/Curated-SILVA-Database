@@ -18,6 +18,7 @@ See the 'SILVA_111_curation_notes.txt' file included with the data for further i
 ## DOWNLOAD
 
 The complete database can be downloaded from Figshare:
+
 https://doi.org/10.6084/m9.figshare.3114850.v1
 
 ## CITATION:
