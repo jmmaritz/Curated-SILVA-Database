@@ -1,0 +1,35 @@
+Notes on the generation of QIIME compatible versions of SILVA 111
+
+The SILVA 111 aligned fasta export (SSURef_111_tax_silva_full_align_trunc.fasta.tgz) was downloaded from SILVA (Quast et al 2013; http://www.arb-silva.de/). This file was filtered to remove all spaces and convert 'U' characters to 'T' characters, and sequences with duplicate ids were removed so that each ID is present only once. Sequence IDs are the original SILVA IDs and correspond to GenBank IDs.  
+ 
+UCLUST version 1.2.22 (Edgar 2010) was used to cluster the SILVA sequences into OTUs at  99, 97, 94, and 90 percent similarity within QIIME. When selecting the representative sequence for each OTU preference was given to sequences without ambiguous bases, and to the longest sequence.  OTU maps are provided as tab delimited files in which the first ID in the row is the representative sequence and the subsequent entries are all sequences assigned to this cluster. Aligned and unaligned representative sequence files are provided at each level.
+
+Eukaryote only files: 
+Many people may choose to use a different resource, such as Greengenes, for bacteria and archaea (16S).  Thus, rep set and taxonomy files that only contain eukaryotes (18S) are included in this release. Trees are only available for eukaryotes. 
+
+Taxa maps: 
+The taxa mapping files were generated from the taxonomy string contained within the fasta header of the downloaded SILVA 111 fasta file. SILVA encodes taxonomic information using variable numbers of levels. This is a reflection of taxonomy, and the observation that some groups have many more nested taxonomic groupings. The maximum amount of information is retained when all of the levels are considered, and these full taxa maps can be used with BLAST (Altschul et al 1990). The eukaryotic taxonomy in Silva 111 was improved through the Eukaryotic Taxonomy Working Group (http://www.arb-silva.de/projects/eukaryotic-taxonomy). Improving the eukaryotic taxonomy is a work in progress and we welcome additional suggestions for improvements. 
+
+Some informatics tools, such as the RDP classifier , require a consistent number of taxonomic levels across all taxa. To enable use of RDP, formatted taxa maps that have the same number of levels for all taxa are also provide.  These go down to the genus level to minimize the memory usage requirements of RDP.  For the full dataset RDP requires 8GB of memory and the eukaryotic dataset requires 1GB of memory.  Generation of the RDP taxa maps for eukaryotes took advantage of the taxonomic ranks file released with SILVA 111. This ranks file was modified to add a column that specifying the ranks to select for RDP taxa map creation (tax_ranks_ssu_111_qiime.txt). The taxa maps and/or ranks file can be modified by users to update taxonomic information as needed.  
+
+Trees: 
+Included in this release is an SSU rRNA gene tree for eukaryotes only generated using RAxML (Stamatakis 2006). The SILVA alignment was filtered dynamically within QIIME to remove alignment positions that were highly variable or contained many gaps.  This tree takes advantange of phylogenetic information from other studies by using constraints to maintain the monophyly of major clades of eukaryotes that have been shown to be robust across many studies (including Adl et al 2012, Parfrey et al 2010, and Burki et al 2012). 
+
+These files were put together by Laura Wegener Parfrey (lwparfrey at gmail dot com)
+
+References:
+Adl SM, Simpson AGB, Lane CE, Lukeš J, Bass D, Bowser SS et al. 2012. The Revised Classification of Eukaryotes. J Euk Microbiol 59: 429-514.
+
+Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. 1990. Basic local alignment search tool. J Mol Biol 215(3):403-410.
+
+Burki F, Okamoto N, Pombert JF, Keeling PJ. 2012. The evolutionary history of haptophytes and cryptophytes: phylogenomic evidence for separate origins. Proc Biol Sci 279: 2246-2254.
+
+Edgar RC. 2010. Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26(19):2460-2461.
+
+Parfrey LW, Grant J, Tekle YI, Lasek-Nesselquist E, Morrison HG, Sogin ML, Patterson DJ, Katz LA. 2010. Broadly sampled multigene analyses yield a well-resolved eukaryotic tree of life. Syst Biol 59: 518-533.
+
+Quast C, Pruesse E, Yilmaz P, Gerken J, Schweer T, Yarza P, Peplies J, Glöckner FO. 2013. The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucleic Acids Res 41: D590-596.
+
+Stamatakis A. 2006. RAxML-VI-HPC: Maximum Likelihood-based Phylogenetic Analyses with Thousands of Taxa and Mixed Models. Bioinformatics 22(21):2688-2690.
+
+Wang Q, Garrity GM, Tiedje JM, Cole JR. 2007. Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. Appl Environ Microb 73(16): 5261-5267.
