@@ -23,6 +23,7 @@ https://doi.org/10.6084/m9.figshare.3114850.v1
 ## CITATION:
 
 This database was originally described in: 
+
 Maritz, J.M., Rogers, K.H., Rock, T.M. et al. Microb Ecol (2017) 74: 923. 
 https://doi.org/10.1007/s00248-017-0996-9 
 
