@@ -15,6 +15,11 @@ The original files from the SILVA 111 database are also included in the database
 
 See the 'SILVA_111_curation_notes.txt' file included with the data for further information.
 
+## DOWNLOAD
+
+The complete database can be downloaded from Figshare:
+https://doi.org/10.6084/m9.figshare.3114850.v1
+
 ## CITATION:
 
 This database was originally described in: 
