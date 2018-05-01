@@ -13,7 +13,7 @@ The Euk_only_curated directory contains the fasta files for this database, taxa 
 
 The original files from the SILVA 111 database are also included in the database.
 
-See the [SILVA_111_curation_notes.txt](./SILVA_111_curation_notes.txt) file for further information.
+See the [SILVA_111_curation_notes.txt](/SILVA_111_curation_notes.txt) file for further information.
 
 ## DOWNLOAD:
 
