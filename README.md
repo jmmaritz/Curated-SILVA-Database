@@ -17,16 +17,18 @@ See the 'SILVA_111_curation_notes.txt' file included with the data for further i
 
 ## DOWNLOAD:
 
-The complete database can be downloaded from Figshare:
-
-https://doi.org/10.6084/m9.figshare.3114850.v1
+The complete database can be downloaded from [Figshare][Database].
 
 ## CITATION:
 
 This database was originally described in: 
 
-Maritz, J.M., Rogers, K.H., Rock, T.M. et al. Microb Ecol (2017) 74: 923. 
-https://doi.org/10.1007/s00248-017-0996-9 
+Maritz, *et al*. (2017) [An 18S rRNA Workflow for characterizing protists in sewage, with a focus on zoonotic Trichomonads][Paper] Microb Ecol, 74: 923. 
+
 
 If you use this database please cite the above paper.
+
+[Paper]: https://doi.org/10.1007/s00248-017-0996-9 
+[Database]: https://doi.org/10.6084/m9.figshare.3114850.v1
+
 
